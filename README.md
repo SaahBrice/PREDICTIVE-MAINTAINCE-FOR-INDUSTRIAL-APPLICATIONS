@@ -1,0 +1,2 @@
+# PREDICTIVE MAINTAINANCE FOR INDUSTRIAL APPLICATIONS
+ This project is part of the ICT for Industrial Automation course, focusing on predictive industrial maintenance. The goal is to visualize sensor data over time to predict and maintain the industrial machinery efficiently. The provided data includes various sensor readings such as vibration levels, sound levels, HP, life span, and more. This script generates an interactive plot that displays these sensor readings over time, allowing for better analysis and decision-making.
