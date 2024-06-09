@@ -28,7 +28,7 @@ def generate_plot(df, time_step):
     fig.update_layout(title_text=f"ICT FOR INDUSTRIAL AUTOMATION FINAL PROJECT Data Visualization")
     return fig
 
-# Generate initial plot
+# Generate initial of all plots
 fig = generate_plot(df, 1)
 
 # Add shapes to highlight HP regions to the initial plot layout
