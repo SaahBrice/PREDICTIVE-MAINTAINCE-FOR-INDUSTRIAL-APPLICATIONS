@@ -35,7 +35,7 @@ fig = generate_plot(df, 1)
 fig.update_layout(
     shapes=[
         # Green region for HP > 50
-        dict(type='rect', xref='x5', yref='y5', x0=df['Time'].min(), y0=50, x1=df['Time'].max(), y1=100, fillcolor='green', opacity=0.2, layer='below', line_width=0),
+        dict(type='rect', xref='x5', yref='y5', x0=df['Time'].min(), y0=50, x1=df['Time'].max(), y1=300, fillcolor='green', opacity=0.2, layer='below', line_width=0),
         # Yellow region for 20 < HP <= 50
         dict(type='rect', xref='x5', yref='y5', x0=df['Time'].min(), y0=20, x1=df['Time'].max(), y1=50, fillcolor='yellow', opacity=0.2, layer='below', line_width=0),
         # Red region for HP <= 20
